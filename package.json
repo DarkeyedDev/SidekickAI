@@ -1,0 +1,23 @@
+{
+  "name": "sidekick-ai",
+  "displayName": "SidekickAI",
+  "description": "AI-powered coding assistant",
+  "version": "1.0.0",
+  "publisher": "DarkeyedDev",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "build": "npm run compile"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "@types/vscode": "^1.74.0",
+    "@types/node": "^16.18.0",
+    "@vscode/vsce": "^2.15.0"
+  }
+}

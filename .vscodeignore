@@ -1,0 +1,142 @@
+# Source files
+src/**
+*.ts
+!out/**/*.js
+
+# Test files
+**/*.test.*
+**/__tests__/**
+test/**
+coverage/**
+.nyc_output/**
+
+# Build and development files
+tsconfig.json
+tsconfig.*.json
+webpack.config.js
+rollup.config.js
+.eslintrc.*
+.eslintignore
+.prettierrc.*
+.prettierignore
+jest.config.*
+*.config.js
+*.config.ts
+
+# Node.js
+node_modules/**
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Git
+.git/**
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/**
+.gitlab-ci.yml
+.travis.yml
+.circleci/**
+azure-pipelines.yml
+appveyor.yml
+
+# Documentation (development)
+docs/**
+*.md
+!README.md
+CHANGELOG.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+
+# IDE and editor files
+.vscode/**
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/**
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npmrc
+.yarnrc
+
+# Temporary and cache files
+tmp/**
+temp/**
+.cache/**
+.nyc_output/**
+.eslintcache
+.stylelintcache
+
+# Security
+.env
+.env.*
+secrets.json
+*.key
+*.pem
+*.crt
+
+# Build artifacts
+dist/**
+lib/**
+build/**
+*.tsbuildinfo
+
+# Testing
+.vscode-test/**
+.vscode-test-*/**
+test-results/**
+junit.xml
+
+# Logs
+logs/**
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Development dependencies that shouldn't be in production
+dev/**
+scripts/**
+tools/**
+
+# Source maps (optional - include if you want them for debugging)
+**/*.map
+
+# TypeScript declaration files (include only if needed)
+**/*.d.ts
+!out/**/*.d.ts
+
+# Specific files that might exist in development
+.audit-ci.json
+.codecov.yml
+.dependabot/**
+renovate.json
+.renovaterc.json
+
+# License files for dependencies (npm includes these)
+**/LICENSE*
+**/LICENCE*
+**/license*
+**/licence*

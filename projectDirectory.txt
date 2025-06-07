@@ -1,0 +1,36 @@
+SidekickAI/
+├── .gitignore
+├── .vscodeignore
+├── package.json
+├── tsconfig.json
+├── jest.config.js                      ✅ Jest config for unit tests
+├── README.md
+├── projectDirectory.txt               ⬅️ (optional reference, can be removed)
+├── .github/
+│   └── workflows/
+│       └── test-and-lint.yml          ✅ GitHub Actions CI/CD pipeline
+├── media/
+│   └── icon.png                       ✅ VS Code Marketplace icon
+├── docs/
+│   └── MODELS.md                      ✅ AI provider/model compatibility
+├── src/
+│   ├── extension.ts                   ✅ Extension activation entrypoint
+│   ├── ai/
+│   │   └── aiService.ts               ✅ Handles AI requests/responses
+│   ├── logging/
+│   │   └── outputChannel.ts           ✅ Logs and change tracking
+│   ├── types/
+│   │   ├── index.ts                   ✅ Exports all types
+│   │   └── types.ts                   ✅ Interfaces/enums for AI, config, commands
+│   ├── utils/
+│   │   ├── config.ts                  ✅ Loads user/workspace settings
+│   │   └── fileWriter.ts             ✅ Applies file edits safely
+│   ├── commands/                      ✅ Command implementations
+│   │   ├── writeCode.ts              ✅ "AI: Write Code"
+│   │   ├── modifyFile.ts             ✅ "AI: Modify File"
+│   │   ├── generateFunction.ts       ✅ "AI: Generate Function"
+│   │   └── explainCode.ts            ✅ "AI: Explain Code"
+│   └── __tests__/                    ✅ Jest unit tests
+│       ├── aiService.test.ts
+│       ├── config.test.ts
+│       └── fileWriter.test.ts
