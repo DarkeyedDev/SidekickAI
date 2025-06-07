@@ -12,7 +12,8 @@
   "main": "./out/extension.js",
   "scripts": {
     "compile": "tsc -p ./",
-    "build": "npm run compile"
+    "build": "npm run compile",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "devDependencies": {
     "typescript": "^4.9.4",
