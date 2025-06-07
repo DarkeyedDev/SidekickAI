@@ -11,8 +11,7 @@
     "rootDir": "src",
     "lib": ["ES2020"],
   },
-  "include": [
-    "*.ts"
-  ]
+   "include": ["src/**/*"],
+  "exclude": ["test_compilation.ts"]
 }
 
