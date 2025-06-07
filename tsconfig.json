@@ -7,7 +7,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "exactOptionalPropertyTypes": true,
-    "outDir": "../test_output"
+    "outDir": "out",
+    "rootDir": "src",
+    "lib": ["ES2020"],
   },
   "include": [
     "*.ts"
